@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    overflow:hidden;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);   /*26252A*/
+    position: relative;
+}
+
+
+
+/*landing page nav bar*/
+
+
+#nav{
+    height: 78px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav img{
+    height: 40px;
+    margin-right: 400px;
+    margin-left: 10px;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav1 h4{
+    margin-right: 70px;
+    font-size: 17px;
+}
+#nav2 i{
+    margin-right: 30px;
+    font-size: 17px;
+    padding: 15px;   
+}
+#nav2 i:hover{
+    transform: scale(1.2);
+    transition: all ease 0.5s;
+    color: #708ec2;
+
+}
+#nav1 h4:hover{
+    transform: scale(1.2);
+    transition: all ease 0.5s;
+    color: #708ec2;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ a:hover{
+    color: #708ec2;
+
+}
+
+
+/*main content of landing page */
+
+
+
+#content{
+    width: 100%;
+    height: calc(100% - 78px);
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+}
+#left{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 140px 70px;
+}
+#left h1{
+    font-size: 70px;
+    line-height: 76px;
+    margin-bottom: 20px;
+}
+#left p{
+    font-size: 15px;
+    width:87%;
+    margin-bottom: 70px;
+}
+#left h5{
+    font-size: 20px;
+    color: #535353;
+    margin-bottom: 20px;
+}
+#left button{
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 45px;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    border: none;
+    text-transform: uppercase;
+}
+#left button:hover{
+    color: black;
+    background-color: #708ec2;
+    transition:all ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+/*right nav bar start*/
+
+
+
+#right{
+    height: 100%;
+    width: 60%;
+    background-color: pink;
+    position: relative;
+}
+
+
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+} 
